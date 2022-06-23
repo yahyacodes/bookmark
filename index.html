@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+    <title>Bookmark</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-3 fixed-top bg-white">
+      <div class="container">
+        <img
+          src="/bookmark-landing-page-master/images/logo-bookmark.svg"
+          alt=""
+          class="navbar-brand"
+        />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          id="menubtn"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span
+            ><img
+              src="/bookmark-landing-page-master/images/icon-hamburger.svg"
+              alt=""
+          /></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#FEATURES" class="nav-link">FEATURES</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#PRICING" class="nav-link">PRICING</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#CONTACT" class="nav-link">CONTACT</a>
+            </li>
+          </ul>
+
+          <button class="btn btn-danger">LOGIN</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="p-5 text-center text-sm-start">
+      <div class="container">
+        <div
+          class="d-sm-flex align-items-center justify-content-between py-5 pt-5"
+        >
+          <div>
+            <h1>
+              A simple Bookmark <br />
+              Manager
+            </h1>
+            <p class="lead my-4">
+              A clean and simple interface to organize your favourite <br />
+              websites.Open a new browser tab and see your sites load <br />
+              instantly.Try it for free.
+            </p>
+            <button class="btn btn-primary">Get it to Chrome</button>
+            <button class="btn btn-secondary">Get it to Firefox</button>
+          </div>
+          <img
+            src="/bookmark-landing-page-master/images/illustration-hero.svg"
+            class="py-5 mx-5"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Features section -->
+    <section class="p-5 text-center" id="features">
+      <div class="container">
+        <div>
+          <h1>Features</h1>
+          <p class="lead my-4">
+            Our aim is to make it quick and easy for you to access your <br />
+            favourite websites.Your bookmarks sync between your devices <br />
+            so you can access them on the go.
+          </p>
+        </div>
+
+        <div class="container p-5">
+          <div class="row d-sm-flex text-sm-start">
+            <div class="col border-bottom border-secondary lead" id="simple">
+              Simple Bookmarking
+            </div>
+
+            <div class="col border-bottom border-secondary lead" id="speed">
+              Speedy Searching
+            </div>
+
+            <div class="col border-bottom border-secondary lead" id="easy">
+              Easy Sharing
+            </div>
+
+            <div class="container d-sm-flex pt-5 my-5 justify-content-between" >
+              <div id="book">
+                <img
+                  src="/bookmark-landing-page-master/images/illustration-features-tab-1.svg"
+                  alt=""
+                />
+              </div>
+
+              <div id="click">
+                <h1 class="mx-5 pt-5">Bookmark in one click</h1>
+                <p class="lead my-4 mx-5">
+                  Organize your bookmarks however you like.Our <br />
+                  simple drag-and-drop interface gives you complete <br />
+                  control over how you manage your favourite sites.
+                </p>
+                <button class="btn btn-primary mx-5">More info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row d-sm-flex text-sm-start">
+            <div class="container d-sm-flex justify-content-between" >
+              <div id="search">
+                <img
+                  src="/bookmark-landing-page-master/images/illustration-features-tab-2.svg"
+                  alt=""
+                />
+              </div>
+
+              <div id="intel">
+                <h1 class="mx-5 pt-5">Intelligent search</h1>
+                <p class="lead my-4 mx-5">
+                  Our powerfull search features will help you find saved <br />
+                  sites in no time at all.No need to trawl through all of <br />
+                  your bookmarks.
+                </p>
+                <button class="btn btn-primary mx-5">More info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row d-sm-flex text-sm-start">
+            <div class="container d-sm-flex justify-content-between" >
+              <div id="share">
+                <img
+                  src="/bookmark-landing-page-master/images/illustration-features-tab-3.svg"
+                  alt=""
+                />
+              </div>
+
+              <div id="marks">
+                <h1 class="mx-5 pt-5">Share your bookmarks</h1>
+                <p class="lead my-4 mx-5">
+                  Easily share your bookmarks and collections with <br />
+                  others.Create a shareable link that you can send at <br />
+                  the click of a button.
+                </p>
+                <button class="btn btn-primary mx-5">More info</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+
+    <!-- Dowload section -->
+    <section class="p-5">
+      <div class="container">
+        <div class="text-center">
+          <h1>Dowload the extension</h1>
+          <p class="lead my-4">
+            We have got many browsers in the pipeline.Please do let us know if
+            <br />
+            you have got a favourite you'd like us to prioritize.
+          </p>
+        </div>
+
+        <div class="row d-sm-flex">
+          <div class="col">
+            <div class="card my-2" style="width: 19rem">
+              <img
+                src="/bookmark-landing-page-master/images/logo-chrome.svg"
+                class="card-img-top w-50 mx-auto d-block my-2"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Add to Chrome</h5>
+                <img
+                  src="/bookmark-landing-page-master/images/bg-dots.svg"
+                  alt=""
+                />
+                <p class="card-text">minimum version 6.2</p>
+                <a href="#" class="btn btn-primary">Add & Install Extension</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card my-4" style="width: 19rem">
+              <img
+                src="/bookmark-landing-page-master/images/logo-firefox.svg"
+                class="card-img-top w-50 mx-auto d-block my-2"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Add to Firefox</h5>
+                <img
+                  src="/bookmark-landing-page-master/images/bg-dots.svg"
+                  alt=""
+                />
+                <p class="card-text">minimum version 5.5</p>
+                <a href="#" class="btn btn-primary">Add & Install Extension</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card my-5" style="width: 19rem">
+              <img
+                src="/bookmark-landing-page-master/images/logo-opera.svg"
+                class="card-img-top w-50 mx-auto d-block my-2"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Add to Opera</h5>
+                <img
+                  src="/bookmark-landing-page-master/images/bg-dots.svg"
+                  alt=""
+                />
+                <p class="card-text">minimum version 4.6</p>
+                <a href="#" class="btn btn-primary">Add & Install Extension</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ section -->
+    <section class="p-5">
+      <div class="container">
+        <div class="my-4 text-center">
+          <h1>Frequently Asked Questions</h1>
+          <p class="lead my-4">
+            Here are some of FAQ.If you have any other questions <br />
+            you'd like answered.Please feel free to email us.
+          </p>
+        </div>
+        <div
+          class="accordion accordion-flush border-bottom border-secondary w-50 mx-auto pt-5"
+          id="accordionFlushExample"
+        >
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed border-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                What is Bookmark?
+              </button>
+            </h2>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                How can I request a new browser?
+              </button>
+            </h2>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Is there a mobile app?
+              </button>
+            </h2>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                What about other chromium browsers?
+              </button>
+            </h2>
+          </div>
+        </div>
+        <div class="text-center my-5">
+          <button class="btn btn-primary">More info</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="postion-relative text-center p-5 bg-primary">
+      <div class="container">
+        <div class="text-center">
+          <p class="lead my-4 text-white">35,000+ ALREADY JOINED</p>
+
+          <h2 class="my-4 text-white">
+            Stay up-to-date with what <br />
+            we're doing
+          </h2>
+        </div>
+        <div class="input-group mb-3 w-50 mx-auto">
+            <input type="text" class="form-control" placeholder="Enter your email" >
+            <button class="btn btn-danger" type="button">Contact Us</button>
+          </div>
+    </footer>
+    <nav class="navbar navbar-expand-lg py-3 bg-dark">
+        <div class="container">
+          <img
+            src="/bookmark-landing-page-master/images/logo-bookmark.svg"
+            alt=""
+            class="navbar-brand"
+          />
+  
+          <div class="collapse navbar-collapse" >
+            <ul class="navbar-nav ms-2">
+              <li class="nav-item">
+                <a href="#FEATURES" class="nav-link text-white m2">FEATURES</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="#PRICING" class="nav-link text-white">PRICING</a>
+              </li>
+  
+              <li class="nav-item">
+                <a href="#CONTACT" class="nav-link text-white">CONTACT</a>
+              </li>
+            </ul>
+
+            <img src="/bookmark-landing-page-master/images/icon-facebook.svg" alt="" class="ms-auto mx-5">
+            <img src="/bookmark-landing-page-master/images/icon-twitter.svg" alt="" >
+           
+          </div>
+        </div>
+      </nav>
+  </body>
+</html>
